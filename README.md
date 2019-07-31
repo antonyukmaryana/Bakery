@@ -4,7 +4,7 @@
 
 A C# console application for a bakery.7/21/19. *By Maryana Antonyuk*
 
-##Description
+**Description**
 
 A program that prompts user to choose pastry and /or bread, offers to choose the amount of the items and calculate the total cost.
 It also also implements the calculation of the "today's deal":
@@ -40,7 +40,7 @@ C#
 
 **Support and contact details.**
 
-Email me amaryana@gmail.com ****with any questions, comments, or concerns.
+Email me amaryana@gmail.com with any questions, comments, or concerns.
 
 **License**
 
