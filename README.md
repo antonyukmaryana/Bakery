@@ -15,11 +15,11 @@ Pastry: Buy 1 for \$2 or 3 for $5."
 
 ****Setup/Installation****
 
-####Requirements
+**Requirements**
 
 To run this program, you have to have IDE, ex VisualStudio (I used Rider(JetBrainer)) or Terminal.
 
-#####For Terminal:
+**For Terminal:**
 
 1. Clone this repository.
 
@@ -29,13 +29,16 @@ At this point its a console program. In order to check its functionality you hav
 
 
 You will have access to all files. Enjoy!
-#####Known Bugs
-At this point it is a console application.
-#####Technologies Used
+
+**Known Bugs**
+
+No known bugs.
+
+**Technologies Used**
 C#
 .NET
 
-######Support and contact details.
+**Support and contact details.**
 
 Email me amaryana@gmail.com ****with any questions, comments, or concerns.
 
