@@ -5,11 +5,11 @@ namespace Bakery
 {
     public class Bread
     {
-        public int Count;
+        public int Count { get; set; }
 
-        public Bread(int count)
+        public Bread()
         {
-            Count = count;
+            Count = 0;
         }
 
         public int CalculateTotalPrice()
@@ -20,7 +20,7 @@ namespace Bakery
 
     public class Pastry
     {
-        public int Count;
+        public int Count { get; set; }
 
         public Pastry(int count)
         {
@@ -41,14 +41,19 @@ namespace Bakery
         static void Main(string[] args)
         {
 
-            
-            Console.WriteLine ("Welcome to our Bakery. We have a wide variety of bread and pastry.");
-            Console.WriteLine ("One loaf is $5 and one item of pastry is $2. today's special Buy 2, get 1 free. A single loaf costs $5. Buy 1 for $2 or 3 for $5.");
-            Console.WriteLine ("Enter count for bread");
+            Console.WriteLine("*~*~*~*~*~*~*~*~*~*~*~*~*");
+            Console.WriteLine("*                       *");
+            Console.WriteLine("*    Pierre's Bakery    *");
+            Console.WriteLine("*                       *");
+            Console.WriteLine("*~*~*~*~*~*~*~*~*~*~*~*~*");
+            Console.WriteLine ("Welcome to Pierre's Bakery. We have a wide variety of bread and pastry.");
+            Console.WriteLine ("One loaf is $5 and one item of pastry is $2. Today's special Buy 2, get 1 free. A single loaf costs $5. Buy 1 for $2 or 3 for $5.");
+            Console.WriteLine ("Enter count for bread:");
             int countBread = int.Parse(Console.ReadLine());
             Console.WriteLine ("Enter count for pastry");
             int countPastry = int.Parse(Console.ReadLine());
-            Bread bread = new Bread(countBread);
+            Bread bread = new Bread();
+            bread.Count = countBread;
             Pastry pastry = new Pastry(countPastry);
             
             Console.WriteLine ("Total price is " + (bread.CalculateTotalPrice() + pastry.CalculateTotalPrice()));

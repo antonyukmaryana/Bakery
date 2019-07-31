@@ -11,6 +11,7 @@ A program that prompts user to choose pastry and /or bread, offers to choose the
 It also also implements the calculation of the "today's deal":
 "Bread: Buy 2, get 1 free. A single loaf costs $5.
 Pastry: Buy 1 for \$2 or 3 for $5."
+![Screenshot](bakery.png)
 
 
 ##Setup/Installation 
